@@ -23,6 +23,9 @@ export default function Summary() {
       navigate('/addons');
     }
   };
+  const handleChange = () => {
+    navigate('/selectplan');
+  };
 
   const planYearly = () => {
     return <p>${isPlanPrice}/yr</p>;
@@ -70,7 +73,9 @@ export default function Summary() {
               {isPlanName} ({isPlanType})
             </h2>
             <div className="summary-price">
-              <button className="change">Change</button>
+              <button onClick={handleChange} className="change">
+                Change
+              </button>
               {handlePlanOption()}
             </div>
           </div>

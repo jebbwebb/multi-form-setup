@@ -5,10 +5,11 @@ export default function Addonsyearlyfinal(props) {
   console.log(name);
   return (
     <>
-      <div className="addon-text">
+      <div className="addon-container">
         <p>{name}</p>
-
-        <p>+${cost}/yr</p>
+        <div className="addon-price">
+          <p>+${cost}/yr</p>
+        </div>
       </div>
     </>
   );
