@@ -32,15 +32,15 @@ self.__precacheManifest = [
     "url": "/react-gh-pages/static/media/icon-thank-you.a80e58e4.svg"
   },
   {
-    "revision": "e02fa37c89bb934513bcd4e13fbd3949",
-    "url": "/react-gh-pages/static/media/bg-sidebar-mobile.e02fa37c.svg"
-  },
-  {
     "revision": "9ff32b7b55df312331bfd98b5c2f3935",
     "url": "/react-gh-pages/static/media/bg-sidebar-desktop.9ff32b7b.svg"
   },
   {
-    "revision": "96f57adf27c52daffe8b7112f1fa1dee",
+    "revision": "e02fa37c89bb934513bcd4e13fbd3949",
+    "url": "/react-gh-pages/static/media/bg-sidebar-mobile.e02fa37c.svg"
+  },
+  {
+    "revision": "78b08c3c58da260ab920df459226e002",
     "url": "/react-gh-pages/index.html"
   }
 ];
