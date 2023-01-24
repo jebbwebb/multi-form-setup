@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/multi-form-setup/yourinfo/precache-manifest.1b069f82fd6a4b1bc171e384dd112580.js"
+  "/multi-form-setup/precache-manifest.9bbe397c93bea3e1ffc2a6967cb07c95.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/multi-form-setup/yourinfo/index.html", {
+workbox.routing.registerNavigationRoute("/multi-form-setup/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
