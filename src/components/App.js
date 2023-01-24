@@ -6,7 +6,7 @@ import Finalform from './Finalform';
 import Selectplan from './Selectplan';
 import Addonyearly from './Addonyearly';
 import Sidebarmobile from './Sidebarmobile';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import summary from './Summary';
 import Summary from './Summary';
 import Thankyou from './Thankyou';
