@@ -64,30 +64,28 @@ function App() {
   ];
 
   return (
-    <HashRouter>
-      <div className="main">
-        <Sidebarmobile></Sidebarmobile>
+    <div className="main">
+      <Sidebarmobile></Sidebarmobile>
 
-        <div className="plan">
-          <Sidebar></Sidebar>
-          <Routes>
-            <Route path="/yourinfo" element={<Finalform />}></Route>
-            <Route path="/selectplan" element={<Selectplan />}></Route>
-            <Route
-              path="/addons"
-              element={<Addons monthlyAdd={monthlyAdd}></Addons>}
-            ></Route>
-            <Route
-              path="/addonsyearly"
-              element={<Addonyearly yearlyAdd={yearlyAdd} />}
-            ></Route>
-            <Route path="/summary" element={<Summary />}></Route>
+      <div className="plan">
+        <Sidebar></Sidebar>
+        <Routes>
+          <Route path="/yourinfo" element={<Finalform />}></Route>
+          <Route path="/selectplan" element={<Selectplan />}></Route>
+          <Route
+            path="/addons"
+            element={<Addons monthlyAdd={monthlyAdd}></Addons>}
+          ></Route>
+          <Route
+            path="/addonsyearly"
+            element={<Addonyearly yearlyAdd={yearlyAdd} />}
+          ></Route>
+          <Route path="/summary" element={<Summary />}></Route>
 
-            <Route path="/thankyou" element={<Thankyou />}></Route>
-          </Routes>
-        </div>
+          <Route path="/thankyou" element={<Thankyou />}></Route>
+        </Routes>
       </div>
-    </HashRouter>
+    </div>
   );
 }
 
