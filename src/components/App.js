@@ -6,7 +6,7 @@ import Finalform from './Finalform';
 import Selectplan from './Selectplan';
 import Addonyearly from './Addonyearly';
 import Sidebarmobile from './Sidebarmobile';
-import { Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import summary from './Summary';
 import Summary from './Summary';
 import Thankyou from './Thankyou';
@@ -64,28 +64,30 @@ function App() {
   ];
 
   return (
-    <div className="main">
-      <Sidebarmobile></Sidebarmobile>
+    <HashRouter>
+      <div className="main">
+        <Sidebarmobile></Sidebarmobile>
 
-      <div className="plan">
-        <Sidebar></Sidebar>
-        <Routes>
-          <Route path="/yourinfo" element={<Finalform />}></Route>
-          <Route path="/selectplan" element={<Selectplan />}></Route>
-          <Route
-            path="/addons"
-            element={<Addons monthlyAdd={monthlyAdd}></Addons>}
-          ></Route>
-          <Route
-            path="/addonsyearly"
-            element={<Addonyearly yearlyAdd={yearlyAdd} />}
-          ></Route>
-          <Route path="/summary" element={<Summary />}></Route>
+        <div className="plan">
+          <Sidebar></Sidebar>
+          <Routes>
+            <Route path="/yourinfo" element={<Finalform />}></Route>
+            <Route path="/selectplan" element={<Selectplan />}></Route>
+            <Route
+              path="/addons"
+              element={<Addons monthlyAdd={monthlyAdd}></Addons>}
+            ></Route>
+            <Route
+              path="/addonsyearly"
+              element={<Addonyearly yearlyAdd={yearlyAdd} />}
+            ></Route>
+            <Route path="/summary" element={<Summary />}></Route>
 
-          <Route path="/thankyou" element={<Thankyou />}></Route>
-        </Routes>
+            <Route path="/thankyou" element={<Thankyou />}></Route>
+          </Routes>
+        </div>
       </div>
-    </div>
+    </HashRouter>
   );
 }
 
