@@ -4,16 +4,16 @@ import ReactDOM from 'react-dom/client';
 import App from './components/App';
 import store from './components/store';
 import { Provider } from 'react-redux';
-import { BrowserRouter, useActionData } from 'react-router-dom';
+import { BrowserRouter, HashRouter, useActionData } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter hashType="hashbang">
       <Provider store={store}>
         <App />
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
