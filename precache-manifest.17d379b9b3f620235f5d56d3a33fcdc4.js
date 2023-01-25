@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/multi-form-setup/static/media/icon-thank-you.a80e58e4.svg"
   },
   {
-    "revision": "9ff32b7b55df312331bfd98b5c2f3935",
-    "url": "/multi-form-setup/static/media/bg-sidebar-desktop.9ff32b7b.svg"
-  },
-  {
     "revision": "e02fa37c89bb934513bcd4e13fbd3949",
     "url": "/multi-form-setup/static/media/bg-sidebar-mobile.e02fa37c.svg"
+  },
+  {
+    "revision": "9ff32b7b55df312331bfd98b5c2f3935",
+    "url": "/multi-form-setup/static/media/bg-sidebar-desktop.9ff32b7b.svg"
   },
   {
     "revision": "f7b4c3298e374576ab3864102e1415e7",
