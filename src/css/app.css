@@ -624,6 +624,7 @@ h5 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
   }
   .option3 {
     color: rebeccapurple;
@@ -644,7 +645,8 @@ h5 {
   .content {
     width: 100%;
     margin-bottom: 150px;
-    margin-right: 200px;
+
+    margin-left: 40px;
   }
   .slider {
     width: 80%;
@@ -657,6 +659,7 @@ h5 {
     min-width: 90%;
     height: 500px;
     margin-bottom: 200px;
+    margin-left: 30px;
   }
   .Addons {
     width: 85%;
@@ -670,7 +673,8 @@ h5 {
   .content3 {
     width: 90%;
     height: 80%;
-    margin-left: 100px;
+    margin-right: 0px;
+    margin-left: 50px;
 
     margin-bottom: 300px;
   }
@@ -694,9 +698,20 @@ h5 {
     left: 0;
   }
   .content-text {
-    width: 90%;
+    width: 80%;
+    gap: 0;
   }
   .content-text p {
     font-size: 1em;
+  }
+  .content-text h1 {
+    font-size: 2em;
+  }
+  .content form {
+    width: 90%;
+  }
+  .thank-container {
+    margin-right: 60px;
+    margin-bottom: 100px;
   }
 }

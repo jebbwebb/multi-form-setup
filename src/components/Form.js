@@ -48,7 +48,7 @@ const Form = ({ submitForm }) => {
                 {errors.phoneNumber && <p>{errors.phoneNumber}</p>}
               </div>
               <input
-                type="number"
+                type="text"
                 name="phoneNumber"
                 placeholder="e.g +1 234 567 890"
                 value={values.phoneNumber}
