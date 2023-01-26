@@ -22,9 +22,9 @@ export default function Yearlyaddons(props) {
               <h2>{name}</h2>
               <p>{text}</p>
             </label>
-          </div>
-          <div className="cost">
-            <p>+${cost}/yr</p>
+            <div className="cost">
+              <p>+${cost}/yr</p>
+            </div>
           </div>
         </div>
       </div>

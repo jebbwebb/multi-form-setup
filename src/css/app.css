@@ -7,7 +7,6 @@
 }
 html,
 body,
-#root,
 .App {
   height: 100%;
   width: 100%;
@@ -265,7 +264,7 @@ h4 {
 .Addons {
   border: 1px solid black;
   border-radius: 10px;
-  border: 1px solid rgb(214, 217, 230);
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -380,6 +379,9 @@ input[type='checkbox'] {
 .addon-container {
   display: flex;
   justify-content: space-between;
+}
+.addon-container p {
+  font-size: 1em;
 }
 .addon-container p {
   color: rgb(2, 41, 90);
@@ -553,6 +555,9 @@ h5 {
   color: rgb(162, 153, 171);
   font-family: 'Ubuntu';
 }
+span {
+  font-family: 'Ubuntu';
+}
 
 /* Mobile CSS */
 @media all and (max-width: 845px) {
@@ -592,7 +597,7 @@ h5 {
   .content4 {
     width: 100%;
     position: relative;
-    bottom: 175px;
+    margin-bottom: 300px;
     margin-left: 20px;
   }
   .content4 form {
@@ -689,7 +694,7 @@ h5 {
   }
 
   .Addons {
-    width: 100%;
+    width: 80%;
   }
   .total {
     width: 80%;
@@ -713,5 +718,19 @@ h5 {
   .thank-container {
     margin-right: 60px;
     margin-bottom: 100px;
+  }
+}
+@media all and (max-width: 390px) {
+  .Addon-container p {
+    font-size: 0.9em;
+  }
+  .addons {
+    background-color: rebeccapurple;
+  }
+  .cost {
+    margin-right: 10px;
+  }
+  .addon p {
+    font-size: 0.8em;
   }
 }
