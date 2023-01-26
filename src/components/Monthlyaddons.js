@@ -9,8 +9,8 @@ export default function Monthlyaddons(props) {
     <>
       <div className="Addon-container">
         <div className="Addons">
-          <div className="addon">
-            <label className="addon-label" for={id}>
+          <label className="addon-label" for={id}>
+            <div className="addon">
               <input
                 className="addon-input"
                 type="checkbox"
@@ -20,13 +20,18 @@ export default function Monthlyaddons(props) {
                 text-attribute={text}
                 onClick={(e) => handleStuff(e)}
               ></input>
-              <h2>{name}</h2>
-              <p>{text}</p>
-            </label>
-            <div className="cost">
-              <p>+{cost}/mo</p>
+              <div className="addon-container2">
+                <div className="addon-text">
+                  <h2>{name}</h2>
+                  <p>{text}</p>
+                </div>
+
+                <div className="cost">
+                  <p>+{cost}/mo</p>
+                </div>
+              </div>
             </div>
-          </div>
+          </label>
         </div>
       </div>
     </>
