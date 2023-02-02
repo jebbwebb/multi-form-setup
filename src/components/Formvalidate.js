@@ -12,7 +12,7 @@ export default function validateInfo(values) {
 
   if (!values.phoneNumber) {
     errors.phoneNumber = 'This field is required';
-  } else if (values.phoneNumber.length < 11) {
+  } else if (values.phoneNumber.length < 10) {
     errors.phoneNumber = 'This field is required';
   }
   return errors;
