@@ -1,7 +1,7 @@
 {
   "main.css": "/multi-form-setup/static/css/main.30c7699b.chunk.css",
-  "main.js": "/multi-form-setup/static/js/main.3696ba70.chunk.js",
-  "main.js.map": "/multi-form-setup/static/js/main.3696ba70.chunk.js.map",
+  "main.js": "/multi-form-setup/static/js/main.b8912a69.chunk.js",
+  "main.js.map": "/multi-form-setup/static/js/main.b8912a69.chunk.js.map",
   "static/js/1.5e2e685a.chunk.js": "/multi-form-setup/static/js/1.5e2e685a.chunk.js",
   "static/js/1.5e2e685a.chunk.js.map": "/multi-form-setup/static/js/1.5e2e685a.chunk.js.map",
   "runtime~main.js": "/multi-form-setup/static/js/runtime~main.2604bb0b.js",
@@ -13,6 +13,6 @@
   "static/media/app.css": "/multi-form-setup/static/media/bg-sidebar-mobile.e02fa37c.svg",
   "static/css/main.30c7699b.chunk.css.map": "/multi-form-setup/static/css/main.30c7699b.chunk.css.map",
   "index.html": "/multi-form-setup/index.html",
-  "precache-manifest.9d30c5887b7c3b60ac0650d1b90a8edb.js": "/multi-form-setup/precache-manifest.9d30c5887b7c3b60ac0650d1b90a8edb.js",
+  "precache-manifest.c34831f82285b0a77fbf318c5f7d498a.js": "/multi-form-setup/precache-manifest.c34831f82285b0a77fbf318c5f7d498a.js",
   "service-worker.js": "/multi-form-setup/service-worker.js"
 }
