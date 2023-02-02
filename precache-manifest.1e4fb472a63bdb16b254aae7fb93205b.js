@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b8912a69db05764978e3",
+    "revision": "4788e8edee695e6499c7",
     "url": "/multi-form-setup/static/css/main.30c7699b.chunk.css"
   },
   {
-    "revision": "b8912a69db05764978e3",
-    "url": "/multi-form-setup/static/js/main.b8912a69.chunk.js"
+    "revision": "4788e8edee695e6499c7",
+    "url": "/multi-form-setup/static/js/main.4788e8ed.chunk.js"
   },
   {
     "revision": "5e2e685ae443e747633e",
@@ -32,15 +32,15 @@ self.__precacheManifest = [
     "url": "/multi-form-setup/static/media/icon-thank-you.a80e58e4.svg"
   },
   {
-    "revision": "9ff32b7b55df312331bfd98b5c2f3935",
-    "url": "/multi-form-setup/static/media/bg-sidebar-desktop.9ff32b7b.svg"
-  },
-  {
     "revision": "e02fa37c89bb934513bcd4e13fbd3949",
     "url": "/multi-form-setup/static/media/bg-sidebar-mobile.e02fa37c.svg"
   },
   {
-    "revision": "6a9273d74e12db21678be945a9c401f9",
+    "revision": "9ff32b7b55df312331bfd98b5c2f3935",
+    "url": "/multi-form-setup/static/media/bg-sidebar-desktop.9ff32b7b.svg"
+  },
+  {
+    "revision": "ff60dcca535d9f379d0dbf65546b7ab9",
     "url": "/multi-form-setup/index.html"
   }
 ];
