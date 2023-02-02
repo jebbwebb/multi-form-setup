@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Yearlyslider from './Yearlyslider';
 import Yearlyamount from './Yearlyamount';
 import { useDispatch, useSelector } from 'react-redux';
@@ -18,11 +18,15 @@ export default function Slider({}) {
   const [yearlyChecked, setYearlyChecked] = useState('notChecked');
   const optionSelection = useSelector((state) => state.counter.time);
   console.log(optionSelection);
-
+  useEffect(() => {
+    let isStuff = 'Arcade';
+    let isPrice = 9;
+    let isPlan = 'monthly';
+    dispatch(removeOption());
+  });
   let isStuff = 'Arcade';
   let isPrice = 9;
   let isPlan = 'monthly';
-
   const handleYearly = () => {
     if (isChecked === false) {
       dispatch(option());
