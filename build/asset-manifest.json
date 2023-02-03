@@ -1,7 +1,7 @@
 {
   "main.css": "/multi-form-setup/static/css/main.30c7699b.chunk.css",
-  "main.js": "/multi-form-setup/static/js/main.b8912a69.chunk.js",
-  "main.js.map": "/multi-form-setup/static/js/main.b8912a69.chunk.js.map",
+  "main.js": "/multi-form-setup/static/js/main.4788e8ed.chunk.js",
+  "main.js.map": "/multi-form-setup/static/js/main.4788e8ed.chunk.js.map",
   "static/js/1.5e2e685a.chunk.js": "/multi-form-setup/static/js/1.5e2e685a.chunk.js",
   "static/js/1.5e2e685a.chunk.js.map": "/multi-form-setup/static/js/1.5e2e685a.chunk.js.map",
   "runtime~main.js": "/multi-form-setup/static/js/runtime~main.2604bb0b.js",
@@ -10,9 +10,9 @@
   "static/media/icon-advanced.svg": "/multi-form-setup/static/media/icon-advanced.4f6f45aa.svg",
   "static/media/icon-pro.svg": "/multi-form-setup/static/media/icon-pro.9321837a.svg",
   "static/media/icon-thank-you.svg": "/multi-form-setup/static/media/icon-thank-you.a80e58e4.svg",
-  "static/media/app.css": "/multi-form-setup/static/media/bg-sidebar-mobile.e02fa37c.svg",
+  "static/media/app.css": "/multi-form-setup/static/media/bg-sidebar-desktop.9ff32b7b.svg",
   "static/css/main.30c7699b.chunk.css.map": "/multi-form-setup/static/css/main.30c7699b.chunk.css.map",
   "index.html": "/multi-form-setup/index.html",
-  "precache-manifest.c34831f82285b0a77fbf318c5f7d498a.js": "/multi-form-setup/precache-manifest.c34831f82285b0a77fbf318c5f7d498a.js",
+  "precache-manifest.1e4fb472a63bdb16b254aae7fb93205b.js": "/multi-form-setup/precache-manifest.1e4fb472a63bdb16b254aae7fb93205b.js",
   "service-worker.js": "/multi-form-setup/service-worker.js"
 }
