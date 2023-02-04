@@ -18,12 +18,7 @@ export default function Slider({}) {
   const [yearlyChecked, setYearlyChecked] = useState('notChecked');
   const optionSelection = useSelector((state) => state.counter.time);
   console.log(optionSelection);
-  useEffect(() => {
-    let isStuff = 'Arcade';
-    let isPrice = 9;
-    let isPlan = 'monthly';
-    dispatch(removeOption());
-  });
+
   let isStuff = 'Arcade';
   let isPrice = 9;
   let isPlan = 'monthly';
