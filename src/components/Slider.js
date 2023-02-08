@@ -17,7 +17,6 @@ export default function Slider({}) {
   const [monthlyChecked, setMonthlyChecked] = useState('isChecked');
   const [yearlyChecked, setYearlyChecked] = useState('notChecked');
   const optionSelection = useSelector((state) => state.counter.time);
-  console.log(optionSelection);
 
   let isStuff = 'Arcade';
   let isPrice = 9;

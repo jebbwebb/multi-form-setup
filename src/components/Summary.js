@@ -10,7 +10,7 @@ export default function Summary() {
   const isPlanType = useSelector((state) => state.counter.plan);
   const AddOnsMemes = useSelector((state) => state.counter.addOns);
   const optionSelection = useSelector((state) => state.counter.time);
-  console.log(optionSelection);
+
   const navigate = useNavigate();
 
   const handleRoute = () => {

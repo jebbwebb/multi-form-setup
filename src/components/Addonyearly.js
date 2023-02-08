@@ -2,7 +2,14 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
-import { increment, addOnName, addOnCost, addOnText } from './counter';
+import {
+  increment,
+  addOnName,
+  addOnCost,
+  addOnText,
+  removeOption,
+} from './counter';
+
 import Yearlyamount from './Yearlyamount';
 import Yearlyaddons from './Yearlyaddons';
 
@@ -68,7 +75,14 @@ export default function Addons({ yearlyAdd }) {
             );
           })}
           <div className="bottom-buttons2">
-            <button onClick={handleBack} className="goBack" type="button">
+            <button
+              onClick={() => {
+                handleBack();
+                dispatch(removeOption());
+              }}
+              className="goBack"
+              type="button"
+            >
               Go Back
             </button>
             <button className="nextStep" type="submit">
