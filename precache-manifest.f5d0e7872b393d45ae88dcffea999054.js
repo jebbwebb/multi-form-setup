@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e931388d42d7efb3d360",
+    "revision": "e7bddff5acb2c025cc12",
     "url": "/multi-form-setup/static/css/main.30c7699b.chunk.css"
   },
   {
-    "revision": "e931388d42d7efb3d360",
-    "url": "/multi-form-setup/static/js/main.e931388d.chunk.js"
+    "revision": "e7bddff5acb2c025cc12",
+    "url": "/multi-form-setup/static/js/main.e7bddff5.chunk.js"
   },
   {
     "revision": "5e2e685ae443e747633e",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/multi-form-setup/static/media/bg-sidebar-mobile.e02fa37c.svg"
   },
   {
-    "revision": "976ff7ec8599a1c1ed1b90aa3b7eb51f",
+    "revision": "008b6b739a8345b726a5fc260b68be15",
     "url": "/multi-form-setup/index.html"
   }
 ];
